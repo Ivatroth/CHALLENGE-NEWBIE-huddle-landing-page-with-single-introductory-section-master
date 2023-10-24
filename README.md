@@ -29,7 +29,7 @@ Los usuarios deberían poder:
 
 ### Links
 
-- URL de la solucion: [Add solution URL here](https://ivatroth.github.io/CHALLENGE-huddle-landing-page-with-single-introductory-section-master/)
+- URL de la solucion: [CHALLENGE-huddle-landing-page-with-single-introductory-section-master](https://ivatroth.github.io/CHALLENGE-huddle-landing-page-with-single-introductory-section-master/)
 
 
 ## My process
