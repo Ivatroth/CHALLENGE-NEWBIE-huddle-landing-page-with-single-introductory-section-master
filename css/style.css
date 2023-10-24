@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: #e882e8;
+  --open-s: 'Open Sans', sans-serif;
+  --poppins: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url('../images/bg-mobile.svg');
+  background-color: var(--violet);
+  background-repeat: no-repeat;
+  font-family: var(--open-s);
+}
+
+.main{
+  margin: 35px;
+}
+
+.header{
+  width: 130px;
+}
+
+.figure{
+  width: 100%;
+}
+
+.image{
+  width: 100%;
+}
+
+.container{
+  margin: 50px auto;
+}
+
+.section-one{
+  margin-bottom: 50px;
+}
+
+.ilustration{
+  width: 100%;
+}
+
+.image-two{
+  width: 100%;
+}
+
+.section-two{
+  text-align: center;
+  color: #fff;
+}
+
+.title{
+  font-family: var(--poppins);
+  margin-bottom: 15px;
+}
+.paragraph{
+  margin-bottom: 30px;
+}
+
+.cta{
+  text-decoration: none;
+  color: var(--violet);
+  background-color: #fff;
+  padding: 10px 70px;
+  border-radius: 30px;
+  font-size: 12px;
+  box-shadow: 5px 5px 10px -2px #3b3b3b;
+}
+
+.cta:hover{
+  color: #fff;
+  background-color: var(--soft-magenta);
+}
+
+.social-media{
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap:10px
+}
+
+.social-media i {
+  color: #fff;
+  border: 2px solid #fff;
+  font-size:1rem;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.social-media .fa-facebook-f{
+  padding: 5px 8px;
+}
+
+.social-media i:hover {
+  color: var(--soft-magenta);
+  border:2px solid #e882e8;
+}
+
+@media (min-width:768px){
+  body{
+    background-image: url('../images/bg-desktop.svg');
+  }
+
+  .main{
+    margin: 70px;
+  }
+
+  .container{
+    margin: 80px auto 0;
+    display: flex;
+  }
+
+  .header{
+    width: 15%;
+  }
+
+  .section-one{
+    width: 150%;
+    margin: 0;
+  }
+
+  .section-two{
+    text-align: left;
+    margin: 40px 60px 0;
+  }
+
+  .title{
+    font-size: 40px;
+  }
+
+  .paragraph{
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  
+  .cta{
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size: 18px;
+  }
+
+  .footer{
+    margin-top: 10px;
+  }
+  
+  .social-media{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+ .circle{
+  margin: 0 8px;
+  width: 35px;
+  height: 35px;
+ }
+
+  .icon{
+    width: 20px;
+  }
+
+}
